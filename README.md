@@ -4,13 +4,14 @@ Working in a coffee shop, I quickly noticed how unpredictable the rush can be. S
 
 ## How it works
 A regression model was built in Python using TensorFlow. The goal was to take external factors and turn them into a headcount.
-|The data; the model was fed with 6 main variables|
-| 1 |the day of the week|
-| 2 |whether it’s a weekend or holiday|
-| 3 |the temperature|
-| 4 |precipitation (rain/snow)|
-| 5 |any local events happening nearby|
-| 6 |the average sales from the last 3 days to catch short-term trends|
+|Number| Input variable| Description|
+|------|---------------|-------------|
+| 1 |day of the week| numerical representation (0-6) of the weekday |
+| 2 |weekend/holiday| binary flag (0 or 1) for non-working days |
+| 3 |temperature| forecasted temperature in Celsius |
+| 4 |precipitation | rain or snow presence (0 or 1) |
+| 5 |local events| nearby concerts, matches, markets
+| 6 |sales trends| avg sales from the last 3 days, short-term trend |
 The Sequential Neural Network has two hidden layers (32 and 16 neurons). I used ReLU activation to help the model catch the tricky non-linear patterns (like how a little rain might not matter, but a downpour definitely does). I ran the training for 100 epochs. You can see in the loss plots how the error drops off sharply as the model starts "getting it".
 
 ## Real-world impact
