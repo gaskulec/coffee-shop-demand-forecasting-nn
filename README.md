@@ -2,7 +2,7 @@
 
 ## Why I built this
 Working in a coffee shop, I quickly noticed how unpredictable the rush can be. Some days you’re overstaffed and bored, other days, you're overwhelmed and running out of products, time alongside with staff. I wanted to see if I could use data to move away from intuitive management to predicting how many customers would walk through the door in coming 5 days.
-[!harmonogram](./harmonogram.png)
+![harmonogram](./harmonogram.png)
 
 ## How it works
 A regression model was built in Python using TensorFlow. The goal was to take external factors and turn them into a headcount.
