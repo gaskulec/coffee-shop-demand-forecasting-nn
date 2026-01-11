@@ -16,7 +16,7 @@ A regression model was built in Python using TensorFlow. The goal was to take ex
 The Sequential Neural Network has two hidden layers (32 and 16 neurons). I used ReLU activation to help the model catch the tricky non-linear patterns (like how a little rain might not matter, but a downpour definitely does). I ran the training for 100 epochs. You can see in the loss plots how the error drops off sharply as the model starts "getting it".
 
 ## Real-world impact
-The best part isn't the code, it's the output. The model produces a clear 'Operational Schedule' for the week.
+The best part isn't the code, it's the output. The model produces a clear 'Operational schedule' for the week.
 - Smart staffing: It flags high-traffic days (like a busy Wednesday) so the manager knows to bring in a third person.
 - Less waste: By knowing the guest count, we can prep exactly the right amount of food, which keeps costs down and reduces waste.
 - Developed this one in Google Colab.
