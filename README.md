@@ -6,6 +6,7 @@ Working in a coffee shop, I quickly noticed how unpredictable the rush can be. S
 A regression model was built in Python using TensorFlow. The goal was to take external factors and turn them into a headcount.
 
 <center>
+  
 |Number| Input variable| Description|
 |------|---------------|-------------|
 | 1 |day of the week| numerical representation (0-6) of the weekday |
