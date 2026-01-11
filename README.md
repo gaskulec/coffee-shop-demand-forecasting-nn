@@ -1,6 +1,4 @@
-<center>
-  <h1> Coffee shop demand forecasting (neural network)</h1>
-</center>
+# Coffee shop demand forecasting (neural network)
 
 ## Why I built this
 Working in a coffee shop, I quickly noticed how unpredictable the rush can be. Some days you’re overstaffed and bored, other days, you're overwhelmed and running out of products, time alongside with staff. I wanted to see if I could use data to move away from intuitive management to predicting how many customers would walk through the door in coming 7 days.
