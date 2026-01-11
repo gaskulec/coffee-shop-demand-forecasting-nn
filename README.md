@@ -17,8 +17,8 @@ The Sequential Neural Network has two hidden layers (32 and 16 neurons). I used 
 
 ## Real-world impact
 The best part isn't the code, it's the output. The model produces a clear 'Operational Schedule' for the week.
-- Smart Staffing: It flags high-traffic days (like a busy Wednesday) so the manager knows to bring in a third person.
-- Less Waste: By knowing the guest count, we can prep exactly the right amount of food, which keeps costs down and reduces waste.
-- Developed this one in Google Colab to keep the training fast and efficient.
+- Smart staffing: It flags high-traffic days (like a busy Wednesday) so the manager knows to bring in a third person.
+- Less waste: By knowing the guest count, we can prep exactly the right amount of food, which keeps costs down and reduces waste.
+- Developed this one in Google Colab.
 
-- # Author: Gabriela Kozubal
+## Author: Gabriela Kozubal
