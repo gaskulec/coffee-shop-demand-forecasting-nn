@@ -12,6 +12,7 @@ A regression model was built in Python using TensorFlow. The goal was to take ex
 | 4 |precipitation | rain or snow presence (0 or 1) |
 | 5 |local events| nearby concerts, matches, markets |
 | 6 |sales trends| avg sales from the last 3 days, short-term trend |
+
 The Sequential Neural Network has two hidden layers (32 and 16 neurons). I used ReLU activation to help the model catch the tricky non-linear patterns (like how a little rain might not matter, but a downpour definitely does). I ran the training for 100 epochs. You can see in the loss plots how the error drops off sharply as the model starts "getting it".
 
 ## Real-world impact
