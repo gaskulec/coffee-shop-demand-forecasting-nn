@@ -1,6 +1,6 @@
 # Coffee shop demand forecasting (neural network)
 
-## Why I built this
+## Why I've built this
 Working in a coffee shop, I quickly noticed how unpredictable the rush can be. Some days the coffee shop is overstaffed and overload with products, other days running out of them alongside with time and staff. I wanted to see if I could use data to move away from intuitive management to predicting how many customers would walk through the door in coming 5 days.
 ![harmonogram](./harmonogram.png)
 
