@@ -1,7 +1,7 @@
 # Coffee shop demand forecasting (neural network)
 
 ## Why I built this
-Working in a coffee shop, I quickly noticed how unpredictable the rush can be. Some days you’re overstaffed and bored, other days, you're overwhelmed and running out of products, time alongside with staff. I wanted to see if I could use data to move away from intuitive management to predicting how many customers would walk through the door in coming 5 days.
+Working in a coffee shop, I quickly noticed how unpredictable the rush can be. Some days the coffee shop is overstaffed and overload with products, other days running out of products alongside with time and staff. I wanted to see if I could use data to move away from intuitive management to predicting how many customers would walk through the door in coming 5 days.
 ![harmonogram](./harmonogram.png)
 
 ## How it works
@@ -21,7 +21,7 @@ The Sequential Neural Network has two hidden layers (32 and 16 neurons). I used 
 ## Real-world impact
 The best part isn't the code, it's the output. The model produces a clear 'Operational schedule' for the week.
 - Smart staffing: It flags high-traffic days (like a busy Wednesday) so the manager knows to bring in a third person.
-- Less waste: By knowing the guest count, we can prep exactly the right amount of food, which keeps costs down and reduces waste.
-- Developed this one in Google Colab.
+- Less waste: By knowing the guest count, we can prepare exactly the right amount of products, which keeps costs down and reduces waste.
+- Developed in Google Colab.
 
 ## Author: Gabriela Kozubal
